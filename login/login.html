@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+     <h3 >Login </h3>
+        <form action="./main.html" name="RegForm" onsubmit=" return validateForm()">
+            
+            <label for="EMail">Email Id</label>
+            <input type="email" name="EMail" placeholder="Enter your Email id" />
+            <br>
+            <label for="Password" >Password</label>
+            <input type="password" name="Password" placeholder="Enter your Password"/>
+            <br>
+            <input type="submit" value="Login"
+            name="Submit" class="input1" />
+        </form>
+    </div>
+    
+    <script src="login.js"></script>
+</body>
+</html>

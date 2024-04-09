@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <div class="container" ></div>
+    <div class="subContainer">
+        <div class="headerSection">
+                <h3 >Join Us</h3>
+               <div class="mainSection">
+               
+                   <form action="./login.html" name="RegForm" onsubmit=" return validateForm()">
+                    <label for="Name">Name</label>
+                    <input type="text" name="Name" placeholder="Enter your Name" />
+                    <br/>
+                    <label for="EMail">Email Id</label>
+                    <input type="email" name="EMail" placeholder="Enter your Email id" />
+                    <br>
+                    <label for="Password" >Password</label>
+                    <input type="password" name="Password" placeholder="Enter your Password"/>
+                    <br>
+                    <label for="Confirm"> Confirm Password</label>
+                    <input type="password" placeholder="Enter your Confirm Password"
+                    name="Confirm" /> 
+                   <input type="submit" value="Sign up"
+                        name="Submit" class="input1"/>
+                     </form>
+                     <a href="../login/login.html"><button style="width: 100px; height: 25px; margin-left: 30%;  background-color: blue ; border-radius: 20px; border: 0cap; color: aliceblue; padding: 0%; margin-left: 30%; margin-top: 10px; " > Login in</button></a> 
+                    </div>
+            </div>
+                
+              
+        </div>
+
+    </div>
+    <div class="hide"></div>
+
+    
+
+    <script src="register.js"></script>
+</body>
+</html>

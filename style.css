@@ -1,0 +1,39 @@
+img{
+    padding-left: 20px;
+}
+body{
+    background-image: url(./assets/imageswe.jpeg);
+    /* background-position:100%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: large;
+    color: gray;
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
+    color: goldenrod;
+}
+.container .subContainer h3{
+    color: white;
+}
+.imageportion{
+    margin-left: 25%;
+    display: flex;
+}
+.header3{
+    margin-left: 45%;
+}
+.link{
+    text-align: center;
+    height: 100%;
+}
+
+button{
+    border-radius: 30px;
+    width: 30%;
+    height: 40px;
+    background-color: goldenrod;
+    font-size: x-large;
+}
